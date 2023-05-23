@@ -26,7 +26,7 @@ settings:
   - name: 아스트라 트리덴트
     url: "/trident-2201"
     version-number: '22.01'
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: Astra Trident 문서
