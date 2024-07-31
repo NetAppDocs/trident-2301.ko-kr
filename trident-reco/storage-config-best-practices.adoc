@@ -299,11 +299,11 @@ Element 소프트웨어 *
 
 * 응용 프로그램 모범 사례 정보 *
 
-* https://www.netapp.com/us/media/tr-4722.pdf["ONTAP 기반 MySQL의 모범 사례"^]
+* https://docs.netapp.com/us-en/ontap-apps-dbs/mysql/mysql-overview.html["ONTAP 기반 MySQL의 모범 사례"^]
 * https://www.netapp.com/pdf.html?item=/media/10510-tr-4605.pdf["SolidFire 기반 MySQL의 모범 사례"^]
-* http://www.netapp.com/us/media/tr-4635.pdf["NetApp SolidFire 및 Cassandra"^]
-* http://www.netapp.com/us/media/tr-4606.pdf["SolidFire에 대한 Oracle 모범 사례"^]
-* http://www.netapp.com/us/media/tr-4610.pdf["SolidFire에 대한 PostgreSQL Best Practice"^]
+* https://www.netapp.com/pdf.html?item=/media/10513-tr-4635pdf.pdf["NetApp SolidFire 및 Cassandra"^]
+* https://www.netapp.com/pdf.html?item=/media/10511-tr4606pdf.pdf["SolidFire에 대한 Oracle 모범 사례"^]
+* https://www.netapp.com/pdf.html?item=/media/10512-tr-4610pdf.pdf["SolidFire에 대한 PostgreSQL Best Practice"^]
 
 
 모든 애플리케이션에 구체적인 지침이 있는 것은 아니며 NetApp 팀과 함께 을 사용하는 것이 중요합니다 https://www.netapp.com/search/["NetApp 라이브러리"^] 최신 설명서를 참조하십시오.
