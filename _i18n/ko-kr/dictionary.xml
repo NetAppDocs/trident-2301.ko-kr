@@ -165,10 +165,6 @@
   <block id="fdd380631ba8063e7b8f842282a01e40" category="list-text"><block ref="fdd380631ba8063e7b8f842282a01e40" category="inline-link-rx"></block></block>
   <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Astra Trident 22.01</block>
   <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
-  <block id="a93e9e44b7a375a4236260f5ff2b251e" category="inline-link">Astra Trident 21.07</block>
-  <block id="3830d427e146a8a64454dc373d9b1502" category="list-text"><block ref="3830d427e146a8a64454dc373d9b1502" category="inline-link-rx"></block></block>
   <block id="b928e0aee19c1e2cc91c85e8a0856936" category="summary">Astra Trident를 설치 및 사용하는 동안 발생할 수 있는 문제를 해결하려면 여기에 제공된 포인터를 사용하십시오.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="doc">문제 해결</block>
   <block id="8ef0ab9bbedaa7608c9abed7c7213218" category="admonition">Astra Trident에 대한 도움을 받으려면 을 사용하여 지원 번들을 생성합니다<block ref="1d41e2024c69110ad6054ffc785ca8e0" prefix=" " category="inline-code"></block> 로 전송합니다<block ref="da34ca64df3f236a423516102d4096c2" prefix=" " category="inline-code"></block>.</block>
@@ -1977,7 +1973,6 @@
   <block id="7eb620c879218a348ba0e9afaedf6b01" category="paragraph">파일 시스템은 Amazon FSx의 주요 리소스이며, 이는 사내 ONTAP 클러스터와 유사합니다. 각 SVM 내에서 파일 시스템에 파일과 폴더를 저장하는 데이터 컨테이너인 하나 이상의 볼륨을 생성할 수 있습니다. NetApp ONTAP용 Amazon FSx를 사용하면 클라우드에서 Data ONTAP가 관리형 파일 시스템으로 제공됩니다. 새로운 파일 시스템 유형을 * NetApp ONTAP * 라고 합니다.</block>
   <block id="1e6c7220f5d4eb181d67b4d5043336f5" category="paragraph">NetApp ONTAP용 Amazon FSx와 Astra Trident를 사용하면 Amazon EKS(Elastic Kubernetes Service)에서 실행되는 Kubernetes 클러스터가 ONTAP에서 지원하는 블록 및 파일 영구 볼륨을 프로비저닝할 수 있습니다.</block>
   <block id="55449fd175613962d882ab450cfc5f3c" category="inline-link">FabricPool</block>
-  <block id="d07e2d99267e4fc3c508f6701be977b4" category="paragraph">NetApp ONTAP용 Amazon FSx에서 사용됩니다<block ref="d1584952da6bdedb0a24d5dbd43ce0bf" category="inline-link-rx"></block> 스토리지 계층을 관리합니다. 이 기능을 사용하면 데이터의 액세스 빈도 여부에 따라 데이터를 계층에 저장할 수 있습니다.</block>
   <block id="9b85b10750f4b0e98b7853ee468d8bd5" category="list-text">SMB 볼륨:</block>
   <block id="cf201a9e802aa6e35997590206919b1a" category="list-text">SMB 볼륨은 를 사용하여 지원됩니다<block ref="8321592ce24c8a122ecf26a63cfca407" prefix=" " category="inline-code"></block> 드라이버만 해당.</block>
   <block id="b184cfad0a2d14c9220db3d72006958c" category="list-text">자동 백업이 설정된 Amazon FSx 파일 시스템에서 생성된 볼륨은 Trident에서 삭제할 수 없습니다. PVC를 삭제하려면 ONTAP 체적에 대한 PV 및 FSx를 수동으로 삭제해야 합니다. 이 문제를 방지하려면:</block>
@@ -2949,10 +2944,8 @@
   <block id="3225a41cc13787a78ef89153b870bffe" category="section-title">ONTAP를 사용하여 데이터 복제</block>
   <block id="5bec6ef5bd67015d1da2f04dc2a24b80" category="paragraph">스토리지 시스템 장애로 인한 데이터 손실로부터 데이터를 복제하는 것은 중요한 역할을 할 수 있습니다.</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP 설명서</block>
-  <block id="40491088e02d790071b9ddbc3f95f983" category="admonition">ONTAP 복제 기술에 대한 자세한 내용은 를 참조하십시오<block ref="dd7cb2553dd5eb568b9a23ce332fc9a4" category="inline-link-rx"></block>.</block>
   <block id="541959f741a3180066a37aee2adf7d01" category="section-title">SnapMirror SVM(Storage Virtual Machines) 복제</block>
   <block id="794cb725c5631ad99b5b7c000307f0df" category="inline-link">SnapMirror를 참조하십시오</block>
-  <block id="15bf9c06ed0c503c4ee904bf4b3a85a9" category="paragraph">을 사용할 수 있습니다<block ref="a2a4907c93db22784422a1bc7047ac73" category="inline-link-rx"></block> 전체 SVM을 복제하며, 여기에는 구성 설정 및 볼륨이 포함됩니다. 재해가 발생할 경우 SnapMirror 대상 SVM을 활성화하여 데이터 제공을 시작할 수 있습니다. 시스템이 복원되면 기본 시스템으로 다시 전환할 수 있습니다.</block>
   <block id="8657190fa7a98fbc200c5c90a08cac65" category="paragraph">Astra Trident는 복제 관계 자체를 구성할 수 없기 때문에 스토리지 관리자는 ONTAP의 SnapMirror SVM 복제 기능을 사용하여 DR(재해 복구) 대상에 볼륨을 자동으로 복제할 수 있습니다.</block>
   <block id="bdb161b363522f5fc614f70c10792020" category="paragraph">SnapMirror SVM 복제 기능을 사용할 계획이거나 현재 기능을 사용 중인 경우 다음을 고려하십시오.</block>
   <block id="34fb9af35ab36a2cead16ad98b140441" category="list-text">SVM-DR이 활성화된 각 SVM에 대해 별개의 백엔드를 생성해야 합니다.</block>
@@ -2981,7 +2974,6 @@
   <block id="19f60a36276037e5b82b5096d2ba7a5c" category="paragraph">다음은 ONTAP SnapMirror 볼륨 복제 설정 단계에 대한 개요입니다.</block>
   <block id="c4e9d0a10c58301ad78e9e9bf74f9229" category="list-text">볼륨이 상주하는 클러스터와 볼륨의 데이터를 제공하는 SVM 간에 피어링을 설정합니다.</block>
   <block id="b1c132fa6284fd6d42f93781032cd962" category="list-text">관계의 동작을 제어하고 해당 관계에 대한 구성 특성을 지정하는 SnapMirror 정책을 생성합니다.</block>
-  <block id="0a30bcd5b223c18be449821765a8ec07" category="list-text">를 사용하여 타겟 볼륨과 소스 볼륨 사이에 SnapMirror 관계를 생성합니다<block ref="258f1c896a75717167dfde7733d463a3" category="inline-link-rx"></block><block ref="f95e5ae9c757f4c65e42842a276ea620" prefix="[" category="inline-code"></block> ^] 명령을 사용하여 적절한 SnapMirror 정책을 할당합니다.</block>
   <block id="20872623d19783e0dbe00afcdcb9ba46" category="list-text">SnapMirror 관계가 생성된 후 소스 볼륨에서 타겟 볼륨으로의 기본 전송이 완료되도록 관계를 초기화합니다.</block>
   <block id="af1fe101ed84f2b2bc465f0a9e92a35f" category="image-alt">에는 SnapMirror 볼륨 복제 설정이 나와 있습니다.</block>
   <block id="1d3ec4cce0f34c07e814ebbd88f5edd8" category="section-title">Trident를 위한 SnapMirror 볼륨 재해 복구 워크플로우</block>
@@ -3281,7 +3273,6 @@
   <block id="2bf2fa2c1c3a6e10095db72759cc9983" category="list-text">관리 역할을 NFS 데이터 인터페이스와 공유합니다.</block>
   <block id="5cf4c2e89b362842d77f4e4209c4ef99" category="paragraph">각 경우 인터페이스가 DNS에 있어야 하며, Trident를 구성할 때 DNS 이름을 사용해야 합니다. 이렇게 하면 네트워크 ID 보존을 사용하지 않고 SVM-DR과 같은 일부 DR 시나리오를 간편하게 수행할 수 있습니다.</block>
   <block id="6a392b5e005fffe32231c94dc96a1605" category="inline-link">SVM-DR</block>
-  <block id="2b4a6ee2db063653d6076884295a3854" category="paragraph">SVM에 전용 또는 공유 관리 LIF를 사용하는 것이 더 이상 선호되지 않지만, 선택한 접근 방식에 맞게 네트워크 보안 정책을 조정해야 합니다. 관리 LIF는 DNS를 통해 액세스할 수 있어야 하며, 유연성을 극대화해야 합니다<block ref="f5e9502989ce78934689806ebb69606a" category="inline-link-rx"></block> Trident와 함께 사용합니다.</block>
   <block id="4a0ee008d3379206a925ade3a9e707dd" category="section-title">최대 볼륨 수를 제한합니다</block>
   <block id="e5e09031843479ef9ef8cbbd4c2f404c" category="inline-link">NetApp Hardware Universe를 참조하십시오</block>
   <block id="400a5d259a812effb5b7df506bf020ef" category="paragraph">ONTAP 스토리지 시스템의 최대 볼륨 수는 소프트웨어 버전과 하드웨어 플랫폼에 따라 다릅니다. 을 참조하십시오<block ref="bb9c67b5a4c15a85b5e6aa6c9afd0285" category="inline-link-rx"></block> 정확한 제한을 결정하는 특정 플랫폼 및 ONTAP 버전. 볼륨 수가 소진되면 프로비저닝 작업이 Trident뿐 아니라 모든 스토리지 요청에 대해 실패합니다.</block>
@@ -3300,7 +3291,6 @@
   <block id="8b7c80a4394c7e64aa891100d57a755f" category="paragraph">백엔드 정의에 CHAP 이니시에이터와 타겟 사용자 이름 및 암호를 지정하고 SVM에서 Trident가 CHAP를 사용하도록 설정할 수 있습니다. 를 사용합니다<block ref="099cb468880f266cba40b49391fa46bc" prefix=" " category="inline-code"></block> 매개 변수 백엔드 구성에서 Trident는 CHAP를 사용하여 ONTAP 백엔드에 대한 iSCSI 연결을 인증합니다. 양방향 CHAP 지원은 Trident 20.04 이상에서 사용할 수 있습니다.</block>
   <block id="2596e59ce5cd0d1b0066656f191365d0" category="section-title">SVM QoS 정책을 생성하고 사용합니다</block>
   <block id="560417d4f795b7e1176a40db8e4ccca8" category="inline-link">괴롭힘을 방지합니다</block>
-  <block id="4870168b0713fe3089cf587858fc3b40" category="paragraph">SVM에 적용되는 ONTAP QoS 정책을 활용하여 Trident에서 프로비저닝된 볼륨에서 사용할 수 있는 IOPS 수를 제한합니다. 그러면 에 도움이 됩니다<block ref="1b59d76842e8b78d6111d3e73e9cd404" category="inline-link-rx"></block> 또는 Trident SVM 외부의 워크로드에 영향을 주지 않는 제어 컨테이너</block>
   <block id="d6ab867679686745d96bea839929a6de" category="paragraph">몇 가지 단계로 SVM에 대한 QoS 정책을 생성할 수 있습니다. 가장 정확한 정보는 사용 중인 ONTAP 버전 설명서를 참조하십시오. 아래 예는 SVM에 사용 가능한 총 IOPS를 5000으로 제한하는 QoS 정책을 생성합니다.</block>
   <block id="c790de304b7ca0097f2133cf9da4e657" category="paragraph">또한 사용하는 ONTAP 버전에서 지원하는 경우에는 최소 QoS를 사용하여 컨테이너화된 워크로드에 대한 처리량을 보장하는 것을 고려할 수 있습니다. 적응형 QoS는 SVM 레벨 정책과 호환되지 않습니다.</block>
   <block id="38c0b69f6b2ee691e1ba568134513414" category="paragraph">컨테이너화된 워크로드 전용 IOPS 수는 다양한 측면에 따라 다릅니다. 그 밖의 다른 사항으로는 다음과 같은 것들이 있습니다.</block>
@@ -3310,13 +3300,11 @@
   <block id="ac2167b1e02d575eb6ddfe4e58f5cdcf" category="admonition">ONTAP 버전이 9.8 이전인 경우 SVM * 에만 QoS 정책 그룹을 할당해야 합니다.</block>
   <block id="9992cae6c17055c750a849c5f6135eb2" category="section-title">Trident에 대한 QoS 정책 그룹을 생성합니다</block>
   <block id="76a3e54f72b3a7224429f111e58f836c" category="inline-link">QoS를 통해 처리량 보장</block>
-  <block id="edb2313b52b4c42008f0531bd6a05e49" category="paragraph">QoS(서비스 품질)는 경쟁 워크로드로부터 주요 워크로드의 성능이 저하되지 않도록 보장합니다. ONTAP QoS 정책 그룹은 볼륨에 대한 QoS 옵션을 제공하고 사용자가 하나 이상의 워크로드에 대한 처리량 한도를 정의할 수 있도록 지원합니다. QoS에 대한 자세한 내용은 를 참조하십시오<block ref="721a1778a2025ec5868484b3888c0186" category="inline-link-rx"></block>. 백엔드에서 또는 스토리지 풀에 QoS 정책 그룹을 지정할 수 있으며, 이러한 그룹은 해당 풀 또는 백엔드에서 생성된 각 볼륨에 적용됩니다.</block>
   <block id="0394fb1288eac4cd3d40bcd991e079e9" category="paragraph">ONTAP에는 기존 QoS 정책과 적응형 서비스 두 가지 QoS 정책 그룹이 있습니다. 기존 정책 그룹은 IOPS 단위로 최대 또는 최소 단위의 고정 처리량을 제공합니다. 적응형 QoS는 워크로드 크기에 따라 처리량을 자동으로 확장하므로 워크로드 크기에 따라 IOPS와 TB|GB의 비율을 유지합니다. 따라서 대규모 구축 환경에서 수백 또는 수천 개의 워크로드를 관리할 경우 상당한 이점이 있습니다.</block>
   <block id="f5acc65a21daed9bb8e91cb5cdd0ae52" category="paragraph">QoS 정책 그룹을 생성할 때는 다음 사항을 고려하십시오.</block>
   <block id="6d5fcf300cd9e9239c26ce37b0919fca" category="list-text">를 설정해야 합니다<block ref="36c38058d66835923c982c773a817f0b" prefix=" " category="inline-code"></block> 키를 누릅니다<block ref="a4a918a45181164207929d52aec36aec" prefix=" " category="inline-code"></block> 백엔드 구성의 블록 다음 백엔드 구성 예를 참조하십시오.</block>
   <block id="32160c2368452bf7d86bcffae7f142be" category="list-text">각 볼륨이 정책 그룹에서 지정한 전체 처리량을 얻을 수 있도록 볼륨별로 정책 그룹을 적용해야 합니다. 공유 정책 그룹은 지원되지 않습니다.</block>
   <block id="b2365e059850d5e32885189655bf469c" category="inline-link">ONTAP 9.8 QoS 명령</block>
-  <block id="23225608cf33a6c6a4aec9126514b0e1" category="paragraph">QoS 정책 그룹에 대한 자세한 내용은 을 참조하십시오<block ref="40468e984a92fba9003857701268163a" category="inline-link-rx"></block>.</block>
   <block id="d5d2a5bc92eea85a4dd11a642ed8a170" category="section-title">스토리지 리소스에 대한 액세스 권한을 Kubernetes 클러스터 구성원으로 제한합니다</block>
   <block id="0f2b74d1b972675eb3d4efe7d8c3ed16" category="paragraph">Trident에서 생성한 NFS 볼륨 및 iSCSI LUN에 대한 액세스를 제한하는 것은 Kubernetes 구축을 위한 보안 환경의 중요한 구성요소입니다. 이렇게 하면 Kubernetes 클러스터의 일부가 아닌 호스트가 볼륨에 액세스하고 예기치 않게 데이터를 수정하는 것을 방지할 수 있습니다.</block>
   <block id="9602ec8691c1a564016f9fd8086139f1" category="paragraph">네임스페이스가 Kubernetes의 리소스에 대한 논리적 경계라는 것을 이해하는 것이 중요합니다. 동일한 네임스페이스의 리소스를 공유할 수 있다고 가정하지만, 특히 상호 네임스페이스 기능이 없다는 것이 중요합니다. 즉, PVS는 글로벌 객체이지만 PVC에 바인딩되면 동일한 네임스페이스에 있는 Pod에서만 액세스할 수 있습니다. * 적절한 경우 네임스페이스를 사용하여 구분을 제공하는 것이 중요합니다. *</block>
@@ -3370,10 +3358,7 @@
   <block id="d911b17f4f4cdcca62a04ad77aa9403d" category="paragraph">* ONTAP *</block>
   <block id="f9dd52d280693dc59e53b6e1fb7bd801" category="inline-link">NFS Best Practice and Implementation Guide를 참조하십시오</block>
   <block id="40bb23d54df7f59219c18f15a346d9e5" category="list-text"><block ref="40bb23d54df7f59219c18f15a346d9e5" category="inline-link-rx"></block></block>
-  <block id="a76193f5d9397d9c49ca283a20ccf649" category="inline-link">SAN 관리 가이드를 참조하십시오</block>
-  <block id="5bc9b097037d45aff954bf9bd632d4a4" category="list-text"><block ref="c745f55eb0c9991966e63f0608541bb1" category="inline-link-rx"></block> (iSCSI의 경우)</block>
   <block id="5ca34d6ffc2a555b689542e3fbeeb7af" category="inline-link">RHEL용 iSCSI Express 구성</block>
-  <block id="36588ac65dcdb9b93916fb0ab708edb3" category="list-text"><block ref="36588ac65dcdb9b93916fb0ab708edb3" category="inline-link-rx"></block></block>
   <block id="ca7ab5ec4cba84fbef55956bb38759ce" category="paragraph">Element 소프트웨어 *</block>
   <block id="e809d9f88c2933195c4d2ab379c1b5dc" category="inline-link">Linux용 SolidFire 구성</block>
   <block id="ce0470e08aa854a8f93fa119434e8422" category="list-text"><block ref="ce0470e08aa854a8f93fa119434e8422" category="inline-link-rx"></block></block>
@@ -3645,4 +3630,15 @@
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Trident AutoSupport는 개인 식별 정보(PII) 또는 개인 정보를 수집하거나 전송하지 않습니다. 에는 Trident 컨테이너 이미지 자체에 적용할 수 없는 가<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> 포함되어 있습니다. 데이터 보안 및 신뢰에 대한 NetApp의 노력에 대해 더 자세히 알아볼 수<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>있습니다.</block>
   <block id="5ff83dbc70e496ea22b38ea61bb69f05" category="list-text">데모를 시청해보시기 <block ref="c27441bbbe62adf51ae6ecec41fde8bd" category="inline-link-macro-rx"></block>바랍니다.</block>
+  <block id="255535dbf7d8ccd159617f72fbac143a" category="admonition">ONTAP 복제 기술에 대한 자세한 내용은 를<block ref="b50e7898b1bbe9f38d3e2dadf141f9a2" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="93fc82fb23dbe2c7e07eeabc532512f9" category="paragraph">를 사용하여 구성 설정 및 볼륨이 포함된 전체 SVM을 복제할 수 있습니다<block ref="46aaa080c7dea38274d1081434d9c6a5" category="inline-link-rx"></block>. 재해가 발생할 경우 SnapMirror 대상 SVM을 활성화하여 데이터 제공을 시작할 수 있습니다. 시스템이 복원되면 기본 시스템으로 다시 전환할 수 있습니다.</block>
+  <block id="851249eba9a8950ad23be411243b0051" category="list-text">] 명령을 사용하여 대상 볼륨과 소스 볼륨 간에 SnapMirror 관계를<block ref="9abded142388603a68b370f178e17079" category="inline-link-rx"></block><block ref="f95e5ae9c757f4c65e42842a276ea620" prefix="[" category="inline-code"></block> 생성하고 적절한 SnapMirror 정책을 할당합니다.</block>
+  <block id="e2a60851073d94712e2b2036fd5d8156" category="paragraph">SVM에 전용 또는 공유 관리 LIF를 사용하는 것이 더 이상 선호되지 않지만, 선택한 접근 방식에 맞게 네트워크 보안 정책을 조정해야 합니다. 이와 관계없이 Trident과 함께 사용하면 DNS를 통해 관리 LIF에 액세스할 수 있어야 최대한의 유연성을 발휘할 수<block ref="3ce2f4ed71c5363b92cf0a3a7ce9ccd4" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="179fa19c132de88b492e8d197035a2fc" category="paragraph">SVM에 적용되는 ONTAP QoS 정책을 활용하여 Trident에서 프로비저닝된 볼륨에서 사용할 수 있는 IOPS 수를 제한합니다. 그러면<block ref="dd5ad8e93c7ec5f1a9057d91e0284eb6" category="inline-link-rx"></block> Trident SVM 외부에서 워크로드에 영향을 미치는 컨테이너가 제어 불능 상태가 됩니다.</block>
+  <block id="34d6f025c38ca8c29501214410cd8534" category="paragraph">QoS(서비스 품질)는 경쟁 워크로드로부터 주요 워크로드의 성능이 저하되지 않도록 보장합니다. ONTAP QoS 정책 그룹은 볼륨에 대한 QoS 옵션을 제공하고 사용자가 하나 이상의 워크로드에 대한 처리량 한도를 정의할 수 있도록 지원합니다. QoS에 대한 자세한 내용은 를<block ref="3cb8b8ac2e6e9408ae34f3020e1a4922" category="inline-link-rx"></block>참조하십시오. 백엔드에서 또는 스토리지 풀에 QoS 정책 그룹을 지정할 수 있으며, 이러한 그룹은 해당 풀 또는 백엔드에서 생성된 각 볼륨에 적용됩니다.</block>
+  <block id="017eece5f4fe8b15539ed1aac4ca4882" category="paragraph">QoS 정책 그룹에 대한 자세한 내용은 를<block ref="d4a1f31eba6ed7ce57f4855a352cdbf9" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="3097ad2af11c180c3e0a96a78dfe1685" category="inline-link">SAN 스토리지 관리</block>
+  <block id="fbdb7b9989274c767d8bb0b4fb5e5c44" category="list-text"><block ref="80a60aef6642b0371d56935a111a1af9" category="inline-link-rx"></block> (iSCSI용)</block>
+  <block id="c748d49380c59e7b313f579abd525aca" category="list-text"><block ref="c748d49380c59e7b313f579abd525aca" category="inline-link-rx"></block></block>
+  <block id="bfe205fb40c84219c58294b919b0802b" category="paragraph">Amazon FSx for NetApp ONTAP은<block ref="100bdb811c1b823e066dd7c237e74575" category="inline-link-rx"></block> 스토리지 계층을 관리하는 데 사용합니다. 이 기능을 사용하면 데이터의 액세스 빈도 여부에 따라 데이터를 계층에 저장할 수 있습니다.</block>
 </blocks>
