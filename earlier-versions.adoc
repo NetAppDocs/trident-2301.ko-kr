@@ -15,7 +15,4 @@ summary: 최신 버전을 실행하지 않는 경우 Astra Trident의 이전 릴
 Astra Trident 23.01을 실행하지 않는 경우 이전 릴리즈에 대한 문서를 사용할 수 있습니다.
 
 * https://docs.netapp.com/us-en/trident-2210/index.html["Astra Trident 22.10"^]
-* https://docs.netapp.com/us-en/trident-2207/index.html["Astra Trident 22.07"^]
-* https://docs.netapp.com/us-en/trident-2204/index.html["Astra Trident 22.04"^]
-* https://docs.netapp.com/us-en/trident-2201/index.html["Astra Trident 22.01"^]
 
