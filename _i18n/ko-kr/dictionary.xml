@@ -159,12 +159,6 @@
   <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="doc">이전 버전의 문서</block>
   <block id="3fe5d266a33f137293c314a2e334b611" category="inline-link">Astra Trident 22.10</block>
   <block id="9fefe9ff51badc61edd8a36c8240aa29" category="list-text"><block ref="9fefe9ff51badc61edd8a36c8240aa29" category="inline-link-rx"></block></block>
-  <block id="21d437ff7c8ceb5481603b5d2c05442a" category="inline-link">Astra Trident 22.07</block>
-  <block id="8a7908446b584a99ce1055c602a9c74e" category="list-text"><block ref="8a7908446b584a99ce1055c602a9c74e" category="inline-link-rx"></block></block>
-  <block id="c53358822905bb04d312060d1cb568af" category="inline-link">Astra Trident 22.04</block>
-  <block id="fdd380631ba8063e7b8f842282a01e40" category="list-text"><block ref="fdd380631ba8063e7b8f842282a01e40" category="inline-link-rx"></block></block>
-  <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Astra Trident 22.01</block>
-  <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
   <block id="b928e0aee19c1e2cc91c85e8a0856936" category="summary">Astra Trident를 설치 및 사용하는 동안 발생할 수 있는 문제를 해결하려면 여기에 제공된 포인터를 사용하십시오.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="doc">문제 해결</block>
   <block id="8ef0ab9bbedaa7608c9abed7c7213218" category="admonition">Astra Trident에 대한 도움을 받으려면 을 사용하여 지원 번들을 생성합니다<block ref="1d41e2024c69110ad6054ffc785ca8e0" prefix=" " category="inline-code"></block> 로 전송합니다<block ref="da34ca64df3f236a423516102d4096c2" prefix=" " category="inline-code"></block>.</block>
@@ -3640,4 +3634,5 @@
   <block id="bfe205fb40c84219c58294b919b0802b" category="paragraph">Amazon FSx for NetApp ONTAP은<block ref="100bdb811c1b823e066dd7c237e74575" category="inline-link-rx"></block> 스토리지 계층을 관리하는 데 사용합니다. 이 기능을 사용하면 데이터의 액세스 빈도 여부에 따라 데이터를 계층에 저장할 수 있습니다.</block>
   <block id="15eaa3bd461b989a50d54376e8b82942" category="example-title">&lt;strong&gt; NetApp Console 사용한 Kubernetes 클러스터 관리&lt;/strong&gt;</block>
   <block id="28cfb8f261719a05032a41acccc32995" category="paragraph">NetApp Console 사용하여 Astra Trident 사용하면 최신 버전의 Astra Trident 로 업그레이드하고, 스토리지 클래스를 추가 및 관리하고 작업 환경에 연결하고, Cloud Backup Service 사용하여 영구 볼륨을 백업할 수 있습니다. 콘솔은 Helm을 사용하거나 수동으로 Trident 운영자를 사용하여 Astra Trident 배포할 수 있도록 지원합니다.</block>
+  <block id="b09c1c20916b590511efd54db64df61c" category="paragraph">++ 참고: 이 명령을 실행하면 ONTAP 인증서 입력을 요청합니다. 1단계에서 생성된<block ref="0c7b1ee06b5fdaab7c83f24275255cf5" prefix=" " category="inline-code"></block> 파일의 내용을 붙여넣은 다음<block ref="b1a326c06d88bf042f73d70f50197905" prefix=" " category="inline-code"></block>를 입력하여 설치를 완료하십시오.</block>
 </blocks>
