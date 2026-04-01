@@ -155,10 +155,6 @@
   <block id="0e7629426b9d7596800cd5d72f558a7f" category="paragraph">NFS를 통해 데이터를 제공하는 SVM의 루트 볼륨에 로드 공유 미러를 생성할 수 있습니다. ONTAP는 Trident에서 생성한 볼륨의 로드 공유 미러를 자동으로 업데이트합니다. 이로 인해 볼륨 마운팅이 지연될 수 있습니다. Trident를 사용하여 여러 볼륨을 생성할 경우 볼륨 프로비저닝은 ONTAP에서 로드 공유 미러 업데이트에 따라 달라집니다.</block>
   <block id="0d3ef54a4cc337b5d907b6639e51c6d4" category="section-title">각 고객/테넌트에 대해 스토리지 클래스 사용을 어떻게 분리할 수 있습니까?</block>
   <block id="fda1b35892cb6f61447f0e49415937d9" category="paragraph">Kubernetes에서는 네임스페이스의 스토리지 클래스를 허용하지 않습니다. 그러나 Kubernetes를 사용하여 네임스페이스당 사용되는 스토리지 리소스 할당량을 사용하여 네임스페이스당 특정 스토리지 클래스의 사용을 제한할 수 있습니다. 특정 스토리지에 대한 특정 네임스페이스 액세스를 거부하려면 해당 스토리지 클래스에 대한 리소스 할당량을 0으로 설정합니다.</block>
-  <block id="34c4dac14496e9c45d92f345d9392fc8" category="summary">최신 버전을 실행하지 않는 경우 Astra Trident의 이전 릴리스에 대한 문서를 사용할 수 있습니다.</block>
-  <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="doc">이전 버전의 문서</block>
-  <block id="3fe5d266a33f137293c314a2e334b611" category="inline-link">Astra Trident 22.10</block>
-  <block id="9fefe9ff51badc61edd8a36c8240aa29" category="list-text"><block ref="9fefe9ff51badc61edd8a36c8240aa29" category="inline-link-rx"></block></block>
   <block id="b928e0aee19c1e2cc91c85e8a0856936" category="summary">Astra Trident를 설치 및 사용하는 동안 발생할 수 있는 문제를 해결하려면 여기에 제공된 포인터를 사용하십시오.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="doc">문제 해결</block>
   <block id="8ef0ab9bbedaa7608c9abed7c7213218" category="admonition">Astra Trident에 대한 도움을 받으려면 을 사용하여 지원 번들을 생성합니다<block ref="1d41e2024c69110ad6054ffc785ca8e0" prefix=" " category="inline-code"></block> 로 전송합니다<block ref="da34ca64df3f236a423516102d4096c2" prefix=" " category="inline-code"></block>.</block>
@@ -3376,8 +3372,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="0172b29a9f5d94dc62ee592a98183f3b" category="paragraph">각 릴리스의 공지 파일에서 Astra Trident용 NetApp 소프트웨어에 사용된 타사 저작권 및 라이센스를 검토할 수 있습니다<block ref="4a3c8c5a408c6db1c44c04391a8a0a2f" category="inline-link-rx"></block>.</block>
-  <block id="1ee41f7caab6c354f41f4a101afa7e89" category="summary">Astra Trident는 NetApp에서 관리하는 오픈 소스 스토리지 공급자 및 오케스트레이터입니다. Docker 및 Kubernetes에서 관리하는 컨테이너식 애플리케이션을 위한 스토리지 볼륨을 생성할 수 있습니다. ** Astra Trident 23.01.1로 업그레이드하는 데 대한 중요 정보는 릴리스 노트를 참조하십시오.**</block>
-  <block id="386e03ca533890432e529f451049f72e" category="doc">Astra Trident 23.01.1 설명서</block>
   <block id="c217b0ac2dd5504f79ba78b220a9c358" category="summary">NetApp은 다양한 방법으로 Trident를 지원합니다. 불협화채널 등 광범위한 자아 지원 옵션이 연중 무휴로 제공됩니다.</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="doc">지원</block>
   <block id="14340f3a4eb25a54f8446036d807d7c8" category="paragraph">Astra Trident는 공식적으로 지원되는 NetApp 프로젝트입니다. 표준 메커니즘을 사용하여 NetApp에 연락하면 필요한 엔터프라이즈급 지원을 받을 수 있습니다.</block>
@@ -3469,7 +3463,6 @@
   <block id="d3889fc650fa47326b5f1d0c56f50970" category="inline-link-macro">POD 보안 표준</block>
   <block id="4e8effbd512bb14dbe10454c0f045ff2" category="paragraph">새로운 소식 <block ref="305368b4f0d008a807e095ab9da58448" category="inline-link-macro-rx"></block> (PSS) 섹션에 설치 시 Astra Trident에서 활성화한 상세 권한이 추가되었습니다.</block>
   <block id="278dc4a29aa2b881b9dc4b45a82929c5" category="section-title">22.04의 변경</block>
-  <block id="368b120a3b5f53a49dc3ab96ec9b8dbd" category="paragraph">NetApp은 제품과 서비스를 지속적으로 개선 및 개선하고 있습니다. Astra Trident의 최신 기능 몇 가지를 소개합니다. 이전 릴리스는 를 참조하십시오<block ref="25da125dffad1d6323c21354bccf0203" category="inline-link-rx"></block>.</block>
   <block id="7072ec708b0ea7e3243747d8b79c0d20" category="admonition">이전 Trident 릴리즈에서 업그레이드하고 Azure NetApp Files를 사용하는 경우, 를 참조하십시오 <block ref="d5189de027922f81005951e6efe0efd5" prefix="" category="inline-code"></block> 구성 매개 변수는 이제 필수 싱글톤 필드입니다.</block>
   <block id="cb60f101c87f3def78d0fef168389244" category="inline-link-macro">GitHub 문제 #681</block>
   <block id="2901fba3b85d37ea6000d90e72366ba6" category="list-text">iSCSI 이니시에이터 이름의 구문 분석 기능이 향상되었습니다. (<block ref="3947f141b94c1867221790f45a6ee173" category="inline-link-macro-rx"></block>)</block>
@@ -3576,7 +3569,6 @@
   <block id="8f5cc6430613f1c12f36965050bb7197" category="sidebar">불화</block>
   <block id="d327e8f24b63b83e091dccdc48dd7b1b" category="sidebar">Astra Trident 문서</block>
   <block id="483a5da192f46e3cfe8391d3ef234fc4" category="sidebar">FAQ 를 참조하십시오</block>
-  <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="f1fe71442cd08e74d342114df7ee1551" category="sidebar">Astra Trident를 설치합니다</block>
   <block id="46921a75e8534ad7d1c379a9e3aec033" category="sidebar">설치 개요</block>
   <block id="3183dc3907c0b67930b221a316c94cb2" category="sidebar">Trident 연산자를 사용하여 설치합니다</block>
@@ -3614,7 +3606,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
-  <block id="198c02e905002edc550067c9d3bbfaef" category="paragraph">Astra Trident 23.01을 실행하지 않는 경우 이전 릴리즈에 대한 문서를 사용할 수 있습니다.</block>
   <block id="430c6bcb8516befc45fb8173b0ca4e1f" category="list-text"><block ref="430c6bcb8516befc45fb8173b0ca4e1f" category="inline-link-rx"></block></block>
   <block id="d7d36869f2f4aa1eb99a10008e153f20" category="list-text"><block ref="d7d36869f2f4aa1eb99a10008e153f20" category="inline-link-rx"></block></block>
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
@@ -3635,4 +3626,7 @@
   <block id="15eaa3bd461b989a50d54376e8b82942" category="example-title">&lt;strong&gt; NetApp Console 사용한 Kubernetes 클러스터 관리&lt;/strong&gt;</block>
   <block id="28cfb8f261719a05032a41acccc32995" category="paragraph">NetApp Console 사용하여 Astra Trident 사용하면 최신 버전의 Astra Trident 로 업그레이드하고, 스토리지 클래스를 추가 및 관리하고 작업 환경에 연결하고, Cloud Backup Service 사용하여 영구 볼륨을 백업할 수 있습니다. 콘솔은 Helm을 사용하거나 수동으로 Trident 운영자를 사용하여 Astra Trident 배포할 수 있도록 지원합니다.</block>
   <block id="b09c1c20916b590511efd54db64df61c" category="paragraph">++ 참고: 이 명령을 실행하면 ONTAP 인증서 입력을 요청합니다. 1단계에서 생성된<block ref="0c7b1ee06b5fdaab7c83f24275255cf5" prefix=" " category="inline-code"></block> 파일의 내용을 붙여넣은 다음<block ref="b1a326c06d88bf042f73d70f50197905" prefix=" " category="inline-code"></block>를 입력하여 설치를 완료하십시오.</block>
+  <block id="15bd21e4cb669eaf47cfec94c1119ed7" category="paragraph">NetApp은 제품과 서비스를 지속적으로 개선하고 향상시키고 있습니다. 다음은 Astra Trident의 최신 기능 중 일부입니다. 이전 릴리스에 대한 정보는 이전 버전의 설명서를 참조하십시오.</block>
+  <block id="1c731560e202d75e130c93bd193fc5c6" category="sidebar">Astra Trident 23.01 문서</block>
+  <block id="66d4c5e9d694726c3898d052356d8a12" category="sidebar">Astra Trident는 NetApp에서 관리하는 오픈 소스 스토리지 프로비저닝 및 오케스트레이션 툴입니다. Docker 및 Kubernetes에서 관리되는 컨테이너화된 애플리케이션을 위한 스토리지 볼륨을 생성할 수 있습니다. **Astra Trident 23.01으로 업그레이드하는 데 필요한 중요 정보는 릴리스 노트를 참조하십시오.**</block>
 </blocks>
